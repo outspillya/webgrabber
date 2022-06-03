@@ -30,7 +30,7 @@ def filter(keys):
 	uFile.close()
 	trash = []
 	for i in l:
-		# i came up with this at 2 am dont ask how it works idk
+
 		res = [k for k in keys if (k in i)]
 		if bool(res) == False:
 			trash.append(i)
